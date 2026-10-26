@@ -345,15 +345,6 @@ Path:
 (0, 0) (0, 1) (0, 2) (0, 3) (0, 4) (0, 5) (0, 6) (0, 7) (0, 8) (0, 9) (1, 9) (2, 9) (3, 9) (4, 9) (5, 9) (6, 9) (7, 9) (8, 9) (9, 9)
 ```
 
-
-## Memory Leaks and Valgrind
-For this assignment, we will be checking for memory leaks. Do not forget to free any memory that was allocated throughout the program. To check for memory leaks we will use valgrind:
-* Compile your program with the `-g` flag.
-  * For example, `gcc -g -Wall -Werror -std=c99 assg.c -o assg`.
-* Run valgrind to check for memory leaks using the command `valgrind —leak-check=full ./assg`.
-* All allocated memory must be freed by the end of the program. If your program passes a mark case but leaks memory, 50% of the points for that case will be deducted.
-
-
 ## Optional Extension: Weighted A* Search (Bonus Marks)
 
 This optional extension introduces a position-dependent variant of Weighted A*. Each traversable cell receives a heuristic weight based on its Manhattan distance to the goal. Cells closer to the goal receive larger weights.
@@ -461,6 +452,13 @@ The final assignment mark will be the higher grade between:
 - Milestone 1 + Final Submission (50% Milestone 1 + 50% Final Submission)
   OR
 - Final Submission (100% Final Submission)
+
+## Memory Leaks and Valgrind
+For this assignment, we will be checking for memory leaks. Do not forget to free any memory that was allocated throughout the program. To check for memory leaks we will use valgrind:
+* Compile your program with the `-g` flag.
+  * For example, `gcc -g -Wall -Werror -std=c99 assg.c -o assg`.
+* Run valgrind to check for memory leaks using the command `valgrind —leak-check=full ./assg`.
+* All allocated memory must be freed by the end of the program. If your program passes a mark case but leaks memory, 50% of the points for that case will be deducted.
 
 ###  Submission Instructions
 
