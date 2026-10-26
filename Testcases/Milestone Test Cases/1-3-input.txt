@@ -1,0 +1,16 @@
+[O] Insert:
+4, 4, 2, 2
+2, 2, 3, 1
+6, 6, 1, 3
+done
+
+Commands:
+[O] IsEmpty
+[O] Extract
+[O] DecreaseKey (6, 6), new_g = 0
+[O] Extract
+[O] Extract
+[C] Find (6, 6)
+[C] Find (2, 2)
+[C] Find (4, 4)
+[O] IsEmpty

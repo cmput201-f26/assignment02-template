@@ -1,0 +1,9 @@
+Node (9, 9) has not been found
+Node (1, 1) has not been found
+Decreased key for Node (2, 2): f = 5, g = 0, h = 5
+Extracted Node (1, 1), f = 2, g = 1, h = 1
+Node (2, 2) has not been found
+Node (2, 2) has been found
+Extracted Node (2, 2), f = 5, g = 0, h = 5
+True
+False

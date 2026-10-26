@@ -1,0 +1,9 @@
+False
+Extracted Node (2, 2), f = 4, g = 3, h = 1
+Decreased key for Node (6, 6): f = 3, g = 0, h = 3
+Extracted Node (6, 6), f = 3, g = 0, h = 3
+Extracted Node (4, 4), f = 4, g = 2, h = 2
+Node (6, 6) has been found
+Node (2, 2) has been found
+Node (4, 4) has been found
+True

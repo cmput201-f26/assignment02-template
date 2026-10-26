@@ -1,0 +1,21 @@
+[O] Insert:
+10, 10, 5, 10
+3, 3, 2, 3
+7, 7, 1, 8
+done
+
+Commands:
+[O] IsEmpty
+[C] IsEmpty
+[C] Find (3, 3)
+[O] Extract
+[C] Find (3, 3)
+[O] Find (3, 3)
+[O] DecreaseKey (10, 10), new_g = 1
+[C] Find (10, 10)
+[O] Extract
+[O] Extract
+[C] Find (10, 10)
+[C] Find (7, 7)
+[O] IsEmpty
+[C] IsEmpty
