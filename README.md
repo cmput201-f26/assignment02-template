@@ -223,7 +223,7 @@ Walls:
 (<int>, <int>), <int>, <int>
 done
 ```
-> [!Note] Only the labels `Start:`, `End:`, and `Walls:` are output by the program; all coordinates and the `done` command are user input.
+> [!Note] The labels `Start:`, `End:`, `Walls:`, coordinates and 'done' are output by the program.
 
 Each wall entry is formatted with four integers:
 * The first two integers represent the `X` and `Y` coordinates of the wall's southwest corner.
